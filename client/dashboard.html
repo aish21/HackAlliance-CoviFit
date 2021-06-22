@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dashboard</title>
+        <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.uiconstructor.com/css/fonts.css">
+    <style>
+        body { font-family: Roboto, sans-serif;}
+        .bgcolor-578abd{background-color: #578abd;}  .bgcolor-138f61{background-color: #138f61;}.width-100{width: 100;}  .width-200px{width: 200px;}  .width-200px, {width: 200px, ;}  .width-200px, 1{width: 200px, 1;}  .width-200px, 100{width: 200px, 100;}  .width-200px, 100percent{width: 200px, 100%;}  .bgcolor-7d078f{background-color: #7d078f;}  .bgcolor-ff00f7{background-color: #ff00f7;}  .border-style-dotted{border-style: dotted;}  .border-style-solid{border-style: solid;}  .border-style-double{border-style: double;}  .border-style-ridge{border-style: ridge;}  .border-style-outset{border-style: outset;}  .font-family-ArialBlack{font-family: "Arial Black", Gadget, sans-serif;}  .font-family-Lato{font-family: Lato, sans-serif;}  .fontcolor-000000{color: #000000 !important;}.bgcolor-6e036e{background-color: #6e036e;}  .font-family-Impact{font-family: Impact, Charcoal, sans-serif;}  .bgcolor-730166{background-color: #730166;}  .bgcolor-610358{background-color: #610358;}.font-family-OpenSans{font-family: "Open Sans", sans-serif;}  .font-family-Roboto{font-family: Roboto, sans-serif;}  .font-family-Tahoma{font-family: Tahoma, Geneva, sans-serif;}  .font-family-TrebuchetMS{font-family: "Trebuchet MS", Helvetica, sans-serif;}  .font-family-CourierNew{font-family: "Courier New", Courier, monospace;}  .font-family-LucidaConsole{font-family: "Lucida Console", Monaco, monospace;}  .font-family-Verdana{font-family: Verdana, Geneva, sans-serif;}  .font-family-Georgia{font-family: Georgia, serif;}  .font-family-TimesNewRoman{font-family: "Times New Roman", Times, serif;}  .font-size-13{font-size: 13;}  .font-family-PalatinoLinotype{font-family: Palatino, serif;}  .font-family-ComicSansMS{font-family: "Comic Sans MS", cursive, sans-serif;}.bgcolor-fafafa{background-color: #fafafa;}  .bgcolor-ba59ba{background-color: #ba59ba;}.bgcolor-47013f{background-color: #47013f;}  .bgcolor-4d0045{background-color: #4d0045;}  .bgcolor-3d0a38{background-color: #3d0a38;}  .bgcolor-42062d{background-color: #42062d;}.bgcolor-6b0654{background-color: #6b0654;}.bgcolor-ebd3eb{background-color: #ebd3eb;}  .bgcolor-fae6fa{background-color: #fae6fa;}.bgcolor-ligh{background-color: #ligh;}
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark        bg-custom        bgcolor-6b0654  " style="position: relative; left: 0px; top: 0px;">  <a class="navbar-brand font-italic font-family-ArialBlack " href="#">COVIFIT</a>  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" style="">  </button>  <div class="collapse navbar-collapse justify-content-end " id="nav-content" style="">    <ul class="navbar-nav">      <li class="nav-item active">    <style>.btn1 {
+  background-color: #6b0654;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  color: #E56DBD;
+}
+</style><button class="btn1"><a href = "dashboard.html" style = "color: white;"><i class="fas fa-home fa-2x mx-3"></i></a></button><button class="btn1"><i class="fas fa-user-circle fa-2x mx-3"></i></button>
+</li><li class="nav-item dropdown show">                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">                            <i class="fas fa-user-friends fa-2x mx-3"></i>                        </a>                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">                            <a class="dropdown-item" href="#">Tutor login</a>                            <a class="dropdown-item" href="#">Upcoming classes</a>                       <a class="dropdown-item" href="#">Add a new class</a>                           <a class="dropdown-item" href="#">Upload new exercise</a> 
+                        </div>                    </li><button class="btn1" ><a href="intro.html" style="color:white;"><i class="fas fa-info-circle fa-2x mx-3"></i></a></button>
+<button class="btn1"><i class="fas fa-sliders-h fa-2x mx-3"></i></button>          
+                              </ul> 
+                            </div>    
+        
+        
+          </nav><main role="main" class=" " style=""> <div class="container " style="width: 100px; height: 50px">  </div>    <div class="row " style="">      <div class="col-md-6 px-5">        <h2 class="">Daily Performance</h2>        <p class="font-family-Roboto font-weight-bold" spellcheck="false">Week 2&nbsp;<br><br></p><p class="font-family-CourierNew" spellcheck="false">Workouts done: 9<br>Level: Beginner<br>Frequency: 4 times a week<br>Calories burnt: 900<br>Improvement/Progression: 36%</p><p></p>        <p class=""><a class="btn btn-secondary" href="#" role="button">View details »</a></p>      </div>      
+
+      <div class="col-md-6 px-5" style="">        <h2 class="">Recent Activities</h2>        <p class="fontcolor-000000 font-family-Roboto" spellcheck="false">Fri, 17th May. 5 pm<br>Zumba Workout with Mark Lee<br><br>Wed, 15th May, 6 pm<br>HIIT Workout with Ashley C&nbsp;<br><br>Tue, 14th May, 7 am<br>Yoga Session with Johnny White<br><br></p>        <p class=""><a class="btn btn-secondary" href="#" role="button">View details »</a></p>      </div>    </div><style class="" style="">. {
+  background-color: #FCE9F8;
+  border: none;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+
+}
+  </style>  
+
+</main>
+<h1 class="text-center mb-5   font-family-Arial  " style="">&nbsp;-- JOIN! --</h1>
+<div class="row  " style="">
+  <div class="col-md-6 col-xs-12 -helper " style="position: absolute; left: 2px; top: 601px; width: 521px; height: 220px; z-index: 1000;">  
+    <table class="table border-style-outset table-responsive-md" style="">
+      <thead>
+        <tr class="">
+          <th scope="col" class="text-uppercase font-weight-bold font-family-Lato fontcolor-000000 text-center" style="color: rgb(0, 0, 0);">Time</th>
+          <th scope="col" class="font-family-Lato font-weight-bold text-uppercase text-center">Trainer</th>
+          <th scope="col" class="font-family-Lato font-weight-bold text-uppercase text-center">JOIN</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row" class="mx1 text-center">
+            <i class="fas fa-bullseye fa-1x mr-3 text-warning"></i> 9:30 am
+          </th>
+          <td class="text-center">Mark</td>
+          <td class="text-center font-weight-bold"><a href = "video.html"> Link </a></td>
+        </tr>
+        <tr>
+          <th scope="row" class="text-center">
+            <i class="fas fa-bullseye fa-1x mr-3 text-warning"></i> 9:30 am
+          </th>
+          <td class="text-center">Jacob</td>
+          <td class="text-center font-weight-bold"> <a href = "video.html"> Link </a></td>
+        </tr>
+        <tr>
+          <th scope="row" class="text-center">
+            <i class="fas fa-bullseye fa-1x mr-3 text-warning"></i> 10:30 am
+          </th>
+          <td class="text-center">Larry</td>
+          <td class="font-weight-bold font-family-Arial text-center"><a href = "video.html"> Link </a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="-placeholder col-md-6 col-xs-12 " style="visibility: hidden;"></div>
+  <div class="col-md-6 col-xs-12 ">  
+    <img style="vertical-align: middle" src="https://www.uiconstructor.com/upload/1623661411.fitness join.jpeg" class="img-fluid align-items-center align-content-center justify-content-center">
+  </div>
+</div>    
+
+
+<footer class="container  " style="">  <p class="">© Covifit 2021</p><div class="container "></div></footer>
+</body>
+</html>
