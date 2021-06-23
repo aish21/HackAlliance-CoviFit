@@ -12,7 +12,7 @@ def dashboard():
     return render_template("dashboard.html")
 
 
-@app.route("/introduction")
+@app.route("/intro")
 def introduction():
     return render_template("intro.html")
 
