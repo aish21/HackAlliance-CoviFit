@@ -13,4 +13,3 @@ simplejson
 sklearn
 slidingwindow
 pyyaml
-tensorflow
