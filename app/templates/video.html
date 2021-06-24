@@ -7,6 +7,13 @@
     <title>Welcome to the Class!</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
+    <link rel="stylesheet" href="style/style" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap"
+      rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"/>
     <link rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -128,8 +135,27 @@
         <div class="jumbotron  bgcolor-light ui-sortable-handle "
              style="">
             <h1 class="" style="">Session 2: Body fitness with Abby<br></h1>
-            <h3 class="">Time: 10:30 am - 11:30 am</h3>
+            <h1 class="">Time: 10:30 am - 11:30 am</h1>
             <div class="row my1 py1"></div>
+            <div class="stopwatch">
+                <h1><span class="gold">STOPWATCH</span></h1>
+                <div class="circle">
+                    <span class="time" id="display">00:00:00</span>
+                </div>
+                <div class="controls">
+                    <button class="buttonPlay">
+                        <img id="playButton"
+                             src="https://res.cloudinary.com/https-tinloof-com/image/upload/v1593360448/blog/time-in-js/play-button_opkxmt.svg" />
+                        <img id="pauseButton"
+                             src="https://res.cloudinary.com/https-tinloof-com/image/upload/v1593360448/blog/time-in-js/pause-button_pinhpy.svg" />
+                    </button>
+                    <button class="buttonReset">
+                        <img id="resetButton"
+                             src="https://res.cloudinary.com/https-tinloof-com/image/upload/v1593360448/blog/time-in-js/reset-button_mdv6wf.svg" />
+                    </button>
+                </div>
+            </div>
+            <script src="scripts/script"></script>
             <div class="container width-500px, 100 100percent">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
