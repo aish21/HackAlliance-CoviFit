@@ -13,3 +13,6 @@ simplejson
 sklearn
 slidingwindow
 pyyaml
+django
+gunicorn
+django-heroku
