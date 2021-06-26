@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f09f2ecc-d3f8-4f3a-a467-ee7894155912" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ML-Model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ML/config/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_proc/features_X.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_proc/features_X.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_proc/features_Y.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_proc/features_Y.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01005.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01006.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01006.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01007.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01007.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01008.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01008.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01009.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01009.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01010.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01010.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01011.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01011.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01012.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01012.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01013.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01013.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01014.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01014.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01015.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01015.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01016.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01016.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01017.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01017.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01018.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01018.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01019.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01019.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01020.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01020.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01021.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01021.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01022.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01022.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01023.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01023.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01024.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01024.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01025.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01025.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01026.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01026.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01027.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01027.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01028.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01028.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01029.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01029.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01030.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01030.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01031.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01031.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01032.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01032.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01033.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01033.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01034.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01034.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01035.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01035.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01036.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01036.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01037.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01037.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01038.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01038.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01039.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01039.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01040.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01040.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01041.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01041.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01042.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01042.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01043.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01043.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01044.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01044.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01045.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01045.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01046.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01046.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01047.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01047.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01048.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01048.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01049.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01049.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01050.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01050.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01051.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01051.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01052.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01052.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01053.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01053.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/apple/01054.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/apple/01054.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/data_test/exercise.avi" beforeDir="false" afterPath="$PROJECT_DIR$/ML/data_test/exercise.avi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/doc/joints_order.png" beforeDir="false" afterPath="$PROJECT_DIR$/ML/doc/joints_order.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/doc/notes_others.md" beforeDir="false" afterPath="$PROJECT_DIR$/ML/doc/notes_others.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/doc/system_diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/ML/doc/system_diagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/model/trained_classifier.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/ML/model/trained_classifier.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ML/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/src/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/src/githubs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/src/githubs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/src/githubs/download_instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/ML/src/githubs/download_instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/src/githubs/tf-pose-estimation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/src/s1_get_skeletons_from_training_imgs.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/src/s1_get_skeletons_from_training_imgs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/src/s2_put_skeleton_txts_to_a_single_txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/src/s2_put_skeleton_txts_to_a_single_txt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/src/s3_preprocess_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/src/s3_preprocess_features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/src/s4_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/src/s4_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/src/s5_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/src/s5_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/tools/an_example_skeleton_of_standing.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/tools/an_example_skeleton_of_standing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/tools/images2video.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/tools/images2video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/tools/png2jpgs.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/tools/png2jpgs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/tools/video2images.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/tools/video2images.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/utils/lib_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/utils/lib_classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/utils/lib_commons.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/utils/lib_commons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/utils/lib_feature_proc.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/utils/lib_feature_proc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/utils/lib_images_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/utils/lib_images_io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/utils/lib_openpose.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/utils/lib_openpose.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/utils/lib_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/utils/lib_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/utils/lib_skeletons_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/utils/lib_skeletons_io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Model/utils/lib_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/utils/lib_tracker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/scripts/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/style/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="1uGVlkFNQ3Bw2jIrCBqo4RqBbWC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app/templates" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/app/templates/style" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.run">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HackAlliance-CoviFit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HackAlliance-CoviFit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="s5_test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HackAlliance-CoviFit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML/src/s5_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="s5_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HackAlliance-CoviFit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML-Model/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML-Model/src/s5_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HackAlliance-CoviFit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.views" />
+        <item itemvalue="Python.s5_test" />
+        <item itemvalue="Python.s5_test (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f09f2ecc-d3f8-4f3a-a467-ee7894155912" name="Default Changelist" comment="" />
+      <created>1624292065575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624292065575</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624616797055">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1624616797055" />
+    <state x="450" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624549464593">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="450" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1624549464593" />
+    <state width="1419" height="176" key="GridCell.Tab.0.bottom" timestamp="1624693155957">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="176" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1624693155957" />
+    <state width="1419" height="176" key="GridCell.Tab.0.center" timestamp="1624693155956">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="176" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1624693155956" />
+    <state width="1419" height="176" key="GridCell.Tab.0.left" timestamp="1624693155955">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="176" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1624693155955" />
+    <state width="1419" height="176" key="GridCell.Tab.0.right" timestamp="1624693155956">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="176" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1624693155956" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1624619856180">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1624619856180" />
+    <state x="100" y="100" width="1240" height="700" key="dock-window-1" timestamp="1624372607596">
+      <screen x="0" y="23" width="1440" height="790" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="dock-window-1/0.23.1440.790@0.23.1440.790" timestamp="1624372607596" />
+    <state x="100" y="100" width="1240" height="700" key="dock-window-2" timestamp="1624372607597">
+      <screen x="0" y="23" width="1440" height="790" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="dock-window-2/0.23.1440.790@0.23.1440.790" timestamp="1624372607597" />
+  </component>
+</project>

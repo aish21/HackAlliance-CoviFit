@@ -1,6 +1,9 @@
 from app import app
-from flask import render_template
+from flask import render_template, Response, request
+import ML.src.s5_test
+import cv2
 
+camera = cv2.VideoCapture(0)
 
 @app.route("/")
 def login():
@@ -18,10 +21,15 @@ def introduction():
 
 
 @app.route("/tutordashboard")
-def tutorDashboard():
+def tutordashboard():
     return render_template("recordnew_tutor.html")
 
 
-@app.route("/class/")
-def videoLesson():
+@app.route("/lesson")
+def lesson():
     return render_template("video.html")
+
+
+@app.route('/video_feed')
+def video_feed():
+    return Response(ML.src.s5_test.main(), mimetype='multipart/x-mixed-replace; boundary=frame')

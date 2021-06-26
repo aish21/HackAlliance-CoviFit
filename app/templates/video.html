@@ -7,7 +7,6 @@
     <title>Welcome to the Class!</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <link rel="stylesheet" href="style/style" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap"
       rel="stylesheet"/>
@@ -38,6 +37,70 @@
           href="https://www.uiconstructor.com/css/fonts.css">
     <style>
         body {font-family: Roboto, sans-serif;}
+        h1 {
+            font-size: 48px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 200;
+            text-align: center;
+            line-height: 59px;
+            padding: 0 64px;
+            margin: 0;
+            }
+        .stopwatch {
+          display: grid;
+          justify-items: center;
+          grid-row-gap: 23px;
+          width: 100%;
+          padding-top: 25px;
+        }
+
+        .circle {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 270px;
+          width: 270px;
+          border: 2px solid;
+          border-radius: 50%;
+        }
+
+        .time {
+          font-family: "Roboto Mono", monospace;
+          font-weight: 300;
+          font-size: 48px;
+        }
+
+        .gold {
+          font-weight: 900;
+
+          color: #f2c94c;
+          text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
+        }
+
+        .controls {
+          display: flex;
+          justify-content: center;
+          background: #2c3347;
+          width: 130px;
+        }
+
+        button {
+          cursor: pointer;
+          background: #2c3347;
+          padding: 0;
+          border: none;
+          margin: 0;
+          outline: none;
+        }
+
+        #playButton {
+          display: block;
+        }
+
+        #pauseButton {
+          display: none;
+        }
+
         .bgcolor-d8e8ed{background-color: #d8e8ed;}
         .bgcolor-b800b8{background-color: #b800b8;}
         .bgcolor-610261{background-color: #610261;}
@@ -155,16 +218,86 @@
                     </button>
                 </div>
             </div>
-            <script src="scripts/script"></script>
+            <script>
+                // Convert time to a format of hours, minutes, seconds, and milliseconds
+
+                function timeToString(time) {
+                  let diffInHrs = time / 3600000;
+                  let hh = Math.floor(diffInHrs);
+
+                  let diffInMin = (diffInHrs - hh) * 60;
+                  let mm = Math.floor(diffInMin);
+
+                  let diffInSec = (diffInMin - mm) * 60;
+                  let ss = Math.floor(diffInSec);
+
+                  let diffInMs = (diffInSec - ss) * 100;
+                  let ms = Math.floor(diffInMs);
+
+                  let formattedMM = mm.toString().padStart(2, "0");
+                  let formattedSS = ss.toString().padStart(2, "0");
+                  let formattedMS = ms.toString().padStart(2, "0");
+
+                  return `${formattedMM}:${formattedSS}:${formattedMS}`;
+                }
+
+                // Declare variables to use in our functions below
+
+                let startTime;
+                let elapsedTime = 0;
+                let timerInterval;
+
+                // Create function to modify innerHTML
+
+                function print(txt) {
+                  document.getElementById("display").innerHTML = txt;
+                }
+
+                // Create "start", "pause" and "reset" functions
+
+                function start() {
+                  startTime = Date.now() - elapsedTime;
+                  timerInterval = setInterval(function printTime() {
+                    elapsedTime = Date.now() - startTime;
+                    print(timeToString(elapsedTime));
+                  }, 10);
+                  showButton("PAUSE");
+                }
+
+                function pause() {
+                  clearInterval(timerInterval);
+                  showButton("PLAY");
+                }
+
+                function reset() {
+                  clearInterval(timerInterval);
+                  print("00:00:00");
+                  elapsedTime = 0;
+                  showButton("PLAY");
+                }
+
+                // Create function to display buttons
+
+                function showButton(buttonKey) {
+                  const buttonToShow = buttonKey === "PLAY" ? playButton : pauseButton;
+                  const buttonToHide = buttonKey === "PLAY" ? pauseButton : playButton;
+                  buttonToShow.style.display = "block";
+                  buttonToHide.style.display = "none";
+                }
+                // Create event listeners
+
+                let playButton = document.getElementById("playButton");
+                let pauseButton = document.getElementById("pauseButton");
+                let resetButton = document.getElementById("resetButton");
+
+                playButton.addEventListener("click", start);
+                pauseButton.addEventListener("click", pause);
+                resetButton.addEventListener("click", reset);
+            </script>
             <div class="container width-500px, 100 100percent">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
-                        <img src="https://www.uiconstructor.com/images/pictureExampleLg.png"
-                             class="img-fluid height-500px ">
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <img src="https://www.uiconstructor.com/images/pictureExampleLg.png"
-                             class="img-fluid height-500px">
+                        <img src="{{ url_for('video_feed') }}" height="80%">
                     </div>
                 </div>
             </div>
