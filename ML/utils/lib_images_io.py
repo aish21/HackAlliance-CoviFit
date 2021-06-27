@@ -223,18 +223,12 @@ class ImageDisplayer(object):
 
     def __init__(self):
         self._window_name = "cv2_display_window"
-        #cv2.namedWindow(self._window_name, cv2.WINDOW_NORMAL)
+        cv2.namedWindow(self._window_name, cv2.WINDOW_NORMAL)
 
     def display(self, image, wait_key_ms=1):
-        cv2.imshow(self._window_name, image)
-        cv2.waitKey(wait_key_ms)
-        try:
-            ret, buffer = cv2.imencode('.jpg', cv2.flip(frame, 1))
-            frame = buffer.tobytes()
-            yield (b'--frame\r\n'
-                   b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
-        except Exception as e:
-            pass
+        pass
+        #cv2.imshow(self._window_name, image)
+        #cv2.waitKey(wait_key_ms)
 
     def __del__(self):
         cv2.destroyWindow(self._window_name)
