@@ -72,7 +72,7 @@ class ReadFromVideo(object):
         assert isinstance(sample_interval, int) and sample_interval >= 1
         self.cnt_imgs = 0
         self._is_stoped = False
-        self._video = cv2.VideoCapture(video_path)
+        self._video = cv2.VideoCapture(video_path, cv2.CAP_DSHOW)
         ret, image = self._video.read()
         self._next_image = image
         self._sample_interval = sample_interval
@@ -135,7 +135,7 @@ class ReadFromWebcam(object):
         queue_size = 3
 
         # Initialize video reader
-        self._video = cv2.VideoCapture(webcam_idx)
+        self._video = cv2.VideoCapture(1, cv2.CAP_DSHOW)
         self._is_stoped = False
 
         # Use a thread to keep on reading images from web camera
@@ -226,12 +226,12 @@ class ImageDisplayer(object):
         cv2.namedWindow(self._window_name, cv2.WINDOW_NORMAL)
 
     def display(self, image, wait_key_ms=1):
-        pass
-        #cv2.imshow(self._window_name, image)
-        #cv2.waitKey(wait_key_ms)
+        cv2.imshow(self._window_name, image)
+        cv2.waitKey(1)
 
     def __del__(self):
         cv2.destroyWindow(self._window_name)
+        #cv2.waitKey(1)
 
 
 def test_ReadFromWebcam():

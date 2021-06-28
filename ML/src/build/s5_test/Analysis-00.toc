@@ -1,0 +1,1425 @@
+(['C:\\Users\\Aishwarya '
+  'Singh\\Desktop\\HackAlliance-CoviFit-deploy\\ML\\src\\s5_test.py'],
+ ['C:\\Users\\Aishwarya Singh\\Desktop\\HackAlliance-CoviFit-deploy',
+  'C:\\Users\\Aishwarya Singh\\Desktop\\HackAlliance-CoviFit-deploy\\ML\\src'],
+ ['codecs'],
+ ['c:\\users\\aishwarya '
+  'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks',
+  'c:\\users\\aishwarya '
+  'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks\\__pycache__',
+  'c:\\users\\aishwarya '
+  'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks',
+  'c:\\users\\aishwarya '
+  'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks\\__pycache__',
+  'c:\\users\\aishwarya '
+  'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks'],
+ [],
+ [],
+ False,
+ False,
+ False,
+ '3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit '
+ '(AMD64)]',
+ [('pyi_rth_multiprocessing',
+   'C:\\Users\\Aishwarya '
+   'Singh\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('s5_test',
+   'C:\\Users\\Aishwarya '
+   'Singh\\Desktop\\HackAlliance-CoviFit-deploy\\ML\\src\\s5_test.py',
+   'PYSOURCE')],
+ [('multiprocessing.popen_spawn_posix',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('threading',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('_strptime',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('datetime',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\datetime.py',
+   'PYMODULE'),
+  ('calendar',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\calendar.py',
+   'PYMODULE'),
+  ('signal',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\signal.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('gzip',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\gzip.py',
+   'PYMODULE'),
+  ('_compression',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\_compression.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('getpass',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\netrc.py',
+   'PYMODULE'),
+  ('stat',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\stat.py',
+   'PYMODULE'),
+  ('shlex',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\shlex.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('getopt',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\getopt.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\gettext.py',
+   'PYMODULE'),
+  ('copy',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\copy.py',
+   'PYMODULE'),
+  ('email.utils',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email.charset',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('quopri',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\quopri.py',
+   'PYMODULE'),
+  ('email.errors',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('random',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\random.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('urllib',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('ssl',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\ssl.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('string',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\string.py',
+   'PYMODULE'),
+  ('posixpath',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('genericpath',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('hashlib',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('email',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.message',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('uu',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\uu.py',
+   'PYMODULE'),
+  ('optparse',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\optparse.py',
+   'PYMODULE'),
+  ('textwrap',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.header',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('bisect',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\bisect.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('http.client',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('decimal',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('contextvars',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('numbers',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\numbers.py',
+   'PYMODULE'),
+  ('base64',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\base64.py',
+   'PYMODULE'),
+  ('hmac',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\hmac.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\struct.py',
+   'PYMODULE'),
+  ('socket',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\socket.py',
+   'PYMODULE'),
+  ('selectors',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\selectors.py',
+   'PYMODULE'),
+  ('tempfile',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('shutil',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\shutil.py',
+   'PYMODULE'),
+  ('zipfile',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('ntpath',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\metadata.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('configparser',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\configparser.py',
+   'PYMODULE'),
+  ('pathlib',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\pathlib.py',
+   'PYMODULE'),
+  ('csv',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\csv.py',
+   'PYMODULE'),
+  ('tokenize',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('token',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\token.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('tarfile',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('lzma',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\bz2.py',
+   'PYMODULE'),
+  ('logging',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\pprint.py',
+   'PYMODULE'),
+  ('doctest',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\doctest.py',
+   'PYMODULE'),
+  ('unittest',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest.async_case',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('asyncio',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('typing',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\typing.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('queue',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\queue.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('pdb',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\pdb.py',
+   'PYMODULE'),
+  ('pydoc',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\pydoc.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('http.server',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('socketserver',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('html',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('tty',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\tty.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\sysconfig.py',
+   'PYMODULE'),
+  ('_osx_support',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\_osx_support.py',
+   'PYMODULE'),
+  ('distutils.log',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\log.py',
+   'PYMODULE'),
+  ('distutils',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('distutils.archive_util',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\archive_util.py',
+   'PYMODULE'),
+  ('distutils.dir_util',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\dir_util.py',
+   'PYMODULE'),
+  ('distutils.file_util',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\file_util.py',
+   'PYMODULE'),
+  ('distutils.dep_util',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\dep_util.py',
+   'PYMODULE'),
+  ('distutils.spawn',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\spawn.py',
+   'PYMODULE'),
+  ('distutils.debug',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\debug.py',
+   'PYMODULE'),
+  ('distutils.errors',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\errors.py',
+   'PYMODULE'),
+  ('distutils.ccompiler',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('distutils.fancy_getopt',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('distutils.util',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\util.py',
+   'PYMODULE'),
+  ('distutils.filelist',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\filelist.py',
+   'PYMODULE'),
+  ('distutils.sysconfig',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('distutils.text_file',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\text_file.py',
+   'PYMODULE'),
+  ('platform',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\platform.py',
+   'PYMODULE'),
+  ('plistlib',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('zipimport',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\zipimport.py',
+   'PYMODULE'),
+  ('runpy',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\runpy.py',
+   'PYMODULE'),
+  ('glob',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\glob.py',
+   'PYMODULE'),
+  ('code',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\codeop.py',
+   'PYMODULE'),
+  ('dis',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\opcode.py',
+   'PYMODULE'),
+  ('bdb',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\bdb.py',
+   'PYMODULE'),
+  ('cmd',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\cmd.py',
+   'PYMODULE'),
+  ('inspect',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\inspect.py',
+   'PYMODULE'),
+  ('ast',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\ast.py',
+   'PYMODULE'),
+  ('difflib',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\difflib.py',
+   'PYMODULE'),
+  ('__future__',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\__future__.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('ctypes',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('secrets',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\secrets.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('subprocess',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('os',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\os.py',
+   'PYMODULE'),
+  ('argparse',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\argparse.py',
+   'PYMODULE'),
+  ('numpy',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._dtype_ctypes',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_dtype_ctypes.py',
+   'PYMODULE'),
+  ('numpy._pytesttester',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy.testing',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.nosetester',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\testing\\_private\\nosetester.py',
+   'PYMODULE'),
+  ('numpy.testing._private.noseclasses',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\testing\\_private\\noseclasses.py',
+   'PYMODULE'),
+  ('numpy.testing._private.decorators',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\testing\\_private\\decorators.py',
+   'PYMODULE'),
+  ('numpy.testing._private.parameterized',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\testing\\_private\\parameterized.py',
+   'PYMODULE'),
+  ('numpy.testing._private',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.utils',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE'),
+  ('numpy.core.fromnumeric',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\fromnumeric.py',
+   'PYMODULE'),
+  ('numpy.core._methods',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_methods.py',
+   'PYMODULE'),
+  ('numpy.lib.stride_tricks',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE'),
+  ('numpy.core.numeric',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\numeric.py',
+   'PYMODULE'),
+  ('numpy.core.arrayprint',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\arrayprint.py',
+   'PYMODULE'),
+  ('_dummy_thread',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\_dummy_thread.py',
+   'PYMODULE'),
+  ('numpy.core._ufunc_config',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_ufunc_config.py',
+   'PYMODULE'),
+  ('numpy.core.shape_base',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.core._exceptions',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_exceptions.py',
+   'PYMODULE'),
+  ('numpy.core._asarray',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_asarray.py',
+   'PYMODULE'),
+  ('numpy.core.umath',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\umath.py',
+   'PYMODULE'),
+  ('numpy.core.overrides',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\overrides.py',
+   'PYMODULE'),
+  ('numpy.compat._inspect',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\compat\\_inspect.py',
+   'PYMODULE'),
+  ('numpy.core.multiarray',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\multiarray.py',
+   'PYMODULE'),
+  ('numpy.core.numerictypes',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\numerictypes.py',
+   'PYMODULE'),
+  ('numpy.core._dtype',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_dtype.py',
+   'PYMODULE'),
+  ('numpy.core._type_aliases',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_type_aliases.py',
+   'PYMODULE'),
+  ('numpy.core._string_helpers',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_string_helpers.py',
+   'PYMODULE'),
+  ('numpy.matrixlib',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.matrixlib.defmatrix',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'PYMODULE'),
+  ('numpy.ma',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\ma\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ma.extras',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\ma\\extras.py',
+   'PYMODULE'),
+  ('numpy.lib.index_tricks',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\index_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib.function_base',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\function_base.py',
+   'PYMODULE'),
+  ('numpy.lib.histograms',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\histograms.py',
+   'PYMODULE'),
+  ('numpy.lib.twodim_base',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\twodim_base.py',
+   'PYMODULE'),
+  ('numpy.core.function_base',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\function_base.py',
+   'PYMODULE'),
+  ('numpy.ma.core',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\ma\\core.py',
+   'PYMODULE'),
+  ('numpy.core._internal',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_internal.py',
+   'PYMODULE'),
+  ('numpy.ctypeslib',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\ctypeslib.py',
+   'PYMODULE'),
+  ('numpy.random',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE'),
+  ('numpy.random._pickle',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE'),
+  ('numpy.polynomial',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\polynomial\\__init__.py',
+   'PYMODULE'),
+  ('numpy.polynomial._polybase',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\polynomial\\_polybase.py',
+   'PYMODULE'),
+  ('numpy.polynomial.laguerre',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\polynomial\\laguerre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite_e',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\polynomial\\hermite.py',
+   'PYMODULE'),
+  ('numpy.polynomial.legendre',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\polynomial\\legendre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.chebyshev',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polynomial',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\polynomial\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polyutils',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\polynomial\\polyutils.py',
+   'PYMODULE'),
+  ('numpy.fft',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('numpy.fft.helper',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\fft\\helper.py',
+   'PYMODULE'),
+  ('numpy.fft._pocketfft',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\fft\\_pocketfft.py',
+   'PYMODULE'),
+  ('numpy.linalg',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('numpy.linalg.linalg',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\linalg\\linalg.py',
+   'PYMODULE'),
+  ('numpy.lib',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.lib._version',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\_version.py',
+   'PYMODULE'),
+  ('numpy.lib.arraypad',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\arraypad.py',
+   'PYMODULE'),
+  ('numpy.lib.arrayterator',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\arrayterator.py',
+   'PYMODULE'),
+  ('numpy.lib.npyio',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\npyio.py',
+   'PYMODULE'),
+  ('numpy.ma.mrecords',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'PYMODULE'),
+  ('numpy.core.records',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\records.py',
+   'PYMODULE'),
+  ('numpy.lib._iotools',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE'),
+  ('numpy.lib._datasource',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE'),
+  ('numpy.lib.format',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE'),
+  ('numpy.lib.arraysetops',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\arraysetops.py',
+   'PYMODULE'),
+  ('numpy.lib.utils',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\utils.py',
+   'PYMODULE'),
+  ('numpy.lib.polynomial',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.lib.ufunclike',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\ufunclike.py',
+   'PYMODULE'),
+  ('numpy.lib.shape_base',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.lib.nanfunctions',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\nanfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib.type_check',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\type_check.py',
+   'PYMODULE'),
+  ('numpy.core.getlimits',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\getlimits.py',
+   'PYMODULE'),
+  ('numpy.core.machar',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\machar.py',
+   'PYMODULE'),
+  ('numpy.lib.scimath',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE'),
+  ('numpy.lib.mixins',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE'),
+  ('numpy.compat',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\compat\\__init__.py',
+   'PYMODULE'),
+  ('numpy.compat.py3k',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\compat\\py3k.py',
+   'PYMODULE'),
+  ('numpy.core',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs_scalars',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_add_newdocs_scalars.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_add_newdocs.py',
+   'PYMODULE'),
+  ('numpy.core.einsumfunc',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\einsumfunc.py',
+   'PYMODULE'),
+  ('numpy.core.memmap',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\memmap.py',
+   'PYMODULE'),
+  ('numpy.core.defchararray',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\defchararray.py',
+   'PYMODULE'),
+  ('numpy._distributor_init',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\_distributor_init.py',
+   'PYMODULE'),
+  ('numpy.version',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\version.py',
+   'PYMODULE'),
+  ('numpy.__config__',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\__config__.py',
+   'PYMODULE'),
+  ('numpy._globals',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE')],
+ [('VCRUNTIME140.dll',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('python38.dll',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\python38.dll',
+   'BINARY'),
+  ('libopenblas.GK7GX5KEQ4F6UYO3P26ULGBQYHGQO7J4.gfortran-win_amd64.dll',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\.libs\\libopenblas.GK7GX5KEQ4F6UYO3P26ULGBQYHGQO7J4.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('_multiprocessing',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_ssl',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_hashlib',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('unicodedata',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_decimal',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_socket',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('select',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_lzma',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_overlapped',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_asyncio',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('_queue',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_ctypes',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('numpy.core._multiarray_umath',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_multiarray_umath.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.core._multiarray_tests',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_multiarray_tests.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.linalg.lapack_lite',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\linalg\\lapack_lite.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random.mtrand',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\mtrand.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random._sfc64',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\_sfc64.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random._philox',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\_philox.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random._pcg64',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\_pcg64.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random._mt19937',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\_mt19937.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random.bit_generator',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\bit_generator.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random._generator',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\_generator.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random._bounded_integers',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\_bounded_integers.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random._common',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\_common.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.fft._pocketfft_internal',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\fft\\_pocketfft_internal.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.linalg._umath_linalg',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\linalg\\_umath_linalg.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('libcrypto-1_1.dll',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
+  ('libffi-7.dll',
+   'c:\\users\\aishwarya '
+   'singh\\appdata\\local\\programs\\python\\python38\\DLLs\\libffi-7.dll',
+   'BINARY')],
+ [],
+ [],
+ [('base_library.zip',
+   'C:\\Users\\Aishwarya '
+   'Singh\\Desktop\\HackAlliance-CoviFit-deploy\\ML\\src\\build\\s5_test\\base_library.zip',
+   'DATA')],
+ [])

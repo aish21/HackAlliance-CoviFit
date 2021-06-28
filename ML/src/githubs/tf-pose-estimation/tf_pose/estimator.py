@@ -12,7 +12,7 @@ import time
 from tf_pose import common
 from tf_pose.common import CocoPart
 from tf_pose.tensblur.smoother import Smoother
-from tensorflow.python.compiler.tensorrt import trt_convert as trt
+#from tensorflow.python.compiler.tensorrt import trt
 
 try:
     from tf_pose.pafprocess import pafprocess
@@ -351,7 +351,7 @@ class TfPoseEstimator:
         gaussian_heatMat = smoother.get_output()
 
         max_pooled_in_tensor = tf.nn.pool(gaussian_heatMat, window_shape=(3, 3), pooling_type='MAX', padding='SAME')
-        self.tensor_peaks = tf.where(tf.equal(gaussian_heatMat, max_pooled_in_tensor), gaussian_heatMat,
+        self.tensor_peaks = tf.compat.v1.where(tf.equal(gaussian_heatMat, max_pooled_in_tensor), gaussian_heatMat,
                                      tf.zeros_like(gaussian_heatMat))
 
         self.heatMat = self.pafMat = None

@@ -43,13 +43,11 @@ python src/s5_test.py \
 import numpy as np
 import cv2
 import argparse
-
 if True:  # Include project path
     import sys
     import os
-
-    ROOT = os.path.dirname(os.path.abspath(__file__)) + "/../"
-    CURR_PATH = os.path.dirname(os.path.abspath(__file__)) + "/"
+    ROOT = os.path.dirname(os.path.abspath(__file__))+"/../"
+    CURR_PATH = os.path.dirname(os.path.abspath(__file__))+"/"
     sys.path.append(ROOT)
 
     import utils.lib_images_io as lib_images_io
@@ -70,25 +68,25 @@ def par(path):  # Pre-Append ROOT to the path if it's not absolute
 
 
 def get_command_line_arguments():
+
     def parse_args():
         parser = argparse.ArgumentParser(
             description="Test action recognition on \n"
-                        "(1) a video, (2) a folder of images, (3) or web camera.")
+            "(1) a video, (2) a folder of images, (3) or web camera.")
         parser.add_argument("-m", "--model_path", required=False,
                             default='model/trained_classifier.pickle')
         parser.add_argument("-t", "--data_type", required=False, default='webcam',
                             choices=["video", "folder", "webcam"])
         parser.add_argument("-p", "--data_path", required=False, default="",
                             help="path to a video file, or images folder, or webcam. \n"
-                                 "For video and folder, the path should be "
-                                 "absolute or relative to this project's root. "
-                                 "For webcam, either input an index or device name. ")
+                            "For video and folder, the path should be "
+                            "absolute or relative to this project's root. "
+                            "For webcam, either input an index or device name. ")
         parser.add_argument("-o", "--output_folder", required=False, default='output/',
                             help="Which folder to save result to.")
 
         args = parser.parse_args()
         return args
-
     args = parse_args()
     if args.data_type != "webcam" and args.data_path and args.data_path[0] != "/":
         # If the path is not absolute, then its relative to the ROOT.
@@ -103,7 +101,8 @@ def get_dst_folder_name(src_data_type, src_data_path):
             DST_FOLDER/folder_name/skeletons/XXXXX.txt
     '''
 
-    assert (src_data_type in ["video", "folder", "webcam"])
+    global folder_name
+    assert(src_data_type in ["video", "folder", "webcam"])
 
     if src_data_type == "video":  # /root/data/video.avi --> video
         folder_name = os.path.basename(src_data_path).split(".")[-2]
@@ -144,6 +143,7 @@ DST_VIDEO_NAME = cfg["output"]["video_name"]
 # framerate of output video.avi
 DST_VIDEO_FPS = float(cfg["output"]["video_fps"])
 
+
 # Video setttings
 
 # If data_type is webcam, set the max frame rate.
@@ -167,6 +167,7 @@ img_disp_desired_rows = int(cfg["settings"]["display"]["desired_rows"])
 
 
 def select_images_loader(src_data_type, src_data_path):
+    global images_loader
     if src_data_type == "video":
         images_loader = lib_images_io.ReadFromVideo(
             src_data_path,
@@ -242,8 +243,8 @@ def remove_skeletons_with_few_joints(skeletons):
     ''' Remove bad skeletons before sending to the tracker '''
     good_skeletons = []
     for skeleton in skeletons:
-        px = skeleton[2:2 + 13 * 2:2]
-        py = skeleton[3:2 + 13 * 2:2]
+        px = skeleton[2:2+13*2:2]
+        py = skeleton[3:2+13*2:2]
         num_valid_joints = len([x for x in px if x != 0])
         num_leg_joints = len([x for x in px[-6:] if x != 0])
         total_size = max(py) - min(py)
@@ -306,65 +307,9 @@ def get_the_skeleton_data_to_save_to_disk(dict_id2skeleton):
         skels_to_save.append([[human_id, label] + skeleton.tolist()])
     return skels_to_save
 
-
-camera = cv2.VideoCapture(0)
-def gen():
-    global dict_id2label
-    global scale_h
-    skeleton_detector = SkeletonDetector(OPENPOSE_MODEL, OPENPOSE_IMG_SIZE)
-    multiperson_tracker = Tracker()
-    multiperson_classifier = MultiPersonClassifier(SRC_MODEL_PATH, CLASSES)
-    images_loader = select_images_loader(SRC_DATA_TYPE, SRC_DATA_PATH)
-    os.makedirs(DST_FOLDER, exist_ok=True)
-    os.makedirs(DST_FOLDER + DST_SKELETON_FOLDER_NAME, exist_ok=True)
-
-    video_writer = lib_images_io.VideoWriter(
-        DST_FOLDER + DST_VIDEO_NAME, DST_VIDEO_FPS)
-
-    while True:
-        success, image = camera.read()
-        if success:
-            ith_img = -1
-            while images_loader.has_image():
-                # -- Read image
-                img = images_loader.read_image()
-                ith_img += 1
-                img_disp = img.copy()
-                print(f"\nProcessing {ith_img}th image ...")
-
-                # -- Detect skeletons
-                humans = skeleton_detector.detect(img)
-                skeletons, scale_h = skeleton_detector.humans_to_skels_list(humans)
-                skeletons = remove_skeletons_with_few_joints(skeletons)
-
-                # -- Track people
-                dict_id2skeleton = multiperson_tracker.track(
-                    skeletons)  # int id -> np.array() skeleton
-
-                # -- Recognize action of each person
-                if len(dict_id2skeleton):
-                    dict_id2label = multiperson_classifier.classify(
-                        dict_id2skeleton)
-
-                # -- Draw
-                img_disp = draw_result_img(img_disp, ith_img, humans, dict_id2skeleton,
-                                           skeleton_detector, multiperson_classifier)
-
-                # Print label of a person
-                if len(dict_id2skeleton):
-                    min_id = min(dict_id2skeleton.keys())
-                    print("prediced label is :", dict_id2label[min_id])
-
-                ret, jpeg = cv2.imencode('.jpg', image)
-                frame = jpeg.tobytes()
-                yield (b'--frame\r\n'
-                       b'Content-Type: image/jpeg\r\n\r\n' + frame +
-                       b'\r\n\r\n')
-
-
-'''
+import time
 # -- Main
-if __name__ == '__main__':
+if __name__ == "__main__":
 
     # -- Detector, tracker, classifier
 
@@ -391,9 +336,11 @@ if __name__ == '__main__':
     # -- Read images and process
     try:
         ith_img = -1
+        #time.sleep(60)
         while images_loader.has_image():
 
             # -- Read image
+
             img = images_loader.read_image()
             ith_img += 1
             img_disp = img.copy()
@@ -436,4 +383,3 @@ if __name__ == '__main__':
     finally:
         video_writer.stop()
         print("Program ends")
-'''

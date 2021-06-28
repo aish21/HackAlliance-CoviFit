@@ -73,6 +73,7 @@ def extract_multi_frame_features(
     ''' From image index and raw skeleton positions,
         Extract features of body velocity, joint velocity, and normalized joint positions.
     '''
+    global fg
     X_new = []
     Y_new = []
     N = len(video_indices)

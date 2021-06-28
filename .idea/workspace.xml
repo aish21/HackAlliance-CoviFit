@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f09f2ecc-d3f8-4f3a-a467-ee7894155912" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/src/s5_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/src/s5_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/utils/lib_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/utils/lib_classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/utils/lib_images_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/utils/lib_images_io.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/video.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-    </list>
+    <list default="true" id="f09f2ecc-d3f8-4f3a-a467-ee7894155912" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +39,7 @@
       <recent name="$PROJECT_DIR$/app/templates/style" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run">
+  <component name="RunManager" selected="Python.s5_test (2)">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HackAlliance-CoviFit" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,6 +53,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lib_images_io" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Aishwarya Singh\Desktop\HackAlliance-CoviFit-deploy\ML\src\githubs\tf-pose-estimation\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML/utils" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML/utils/lib_images_io.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,39 +104,18 @@
       <method v="2" />
     </configuration>
     <configuration name="s5_test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="HackAlliance-CoviFit" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\Aishwarya Singh\Desktop\HackAlliance-CoviFit-deploy\ML\src\githubs\tf-pose-estimation\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML/src" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML/src/s5_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="s5_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="HackAlliance-CoviFit" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML-Model/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML-Model/src/s5_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,14 +147,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.run" />
         <item itemvalue="Python.s5_test (2)" />
+        <item itemvalue="Python.lib_images_io" />
+        <item itemvalue="Python.run" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.views" />
-        <item itemvalue="Python.s5_test" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -176,43 +168,5 @@
       <updated>1624292065575</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="184" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624616797055">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="184" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1624616797055" />
-    <state x="450" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624549464593">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="450" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1624549464593" />
-    <state width="1419" height="341" key="GridCell.Tab.0.bottom" timestamp="1624806044365">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="341" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1624806044365" />
-    <state width="1419" height="341" key="GridCell.Tab.0.center" timestamp="1624806044363">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="341" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1624806044363" />
-    <state width="1419" height="341" key="GridCell.Tab.0.left" timestamp="1624806044362">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="341" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1624806044362" />
-    <state width="1419" height="341" key="GridCell.Tab.0.right" timestamp="1624806044364">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="341" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1624806044364" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1624619856180">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1624619856180" />
-    <state x="100" y="100" width="1240" height="700" key="dock-window-1" timestamp="1624372607596">
-      <screen x="0" y="23" width="1440" height="790" />
-    </state>
-    <state x="100" y="100" width="1240" height="700" key="dock-window-1/0.23.1440.790@0.23.1440.790" timestamp="1624372607596" />
-    <state x="100" y="100" width="1240" height="700" key="dock-window-2" timestamp="1624372607597">
-      <screen x="0" y="23" width="1440" height="790" />
-    </state>
-    <state x="100" y="100" width="1240" height="700" key="dock-window-2/0.23.1440.790@0.23.1440.790" timestamp="1624372607597" />
   </component>
 </project>

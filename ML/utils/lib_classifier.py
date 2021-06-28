@@ -133,7 +133,7 @@ class ClassifierOnlineTest(object):
 
         # -- Settings
         self.human_id = human_id
-        with open('/Users/aishwarya/Desktop/CoviFit/ML/model/trained_classifier.pickle', 'rb') as f:
+        with open('C:/Users/Aishwarya Singh/Desktop/HackAlliance-CoviFit-deploy/ML/model/trained_classifier.pickle', 'rb') as f:
             self.model = pickle.load(f)
         if self.model is None:
             print("my Error: failed to load model")

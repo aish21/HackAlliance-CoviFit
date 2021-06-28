@@ -3,7 +3,8 @@ from flask import render_template, Response, request
 import ML.src.s5_test
 import cv2
 
-camera = cv2.VideoCapture(0)
+OPENCV_VIDEOIO_DEBUG = 1
+camera = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
 
 def gen_frames():  # generate frame by frame from camera
