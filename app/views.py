@@ -1,22 +1,15 @@
 from app import app
-from flask import render_template, Response, request
-import ML.src.s5_test
-import cv2
+import os
+from dotenv import load_dotenv
+from flask import Flask, render_template, request, abort
+from twilio.jwt.access_token import AccessToken
+from twilio.jwt.access_token.grants import VideoGrant
 
-camera = cv2.VideoCapture(0)
+load_dotenv()
+twilio_account_sid = os.environ.get('TWILIO_ACCOUNT_SID')
+twilio_api_key_sid = os.environ.get('TWILIO_API_KEY_SID')
+twilio_api_key_secret = os.environ.get('TWILIO_API_KEY_SECRET')
 
-
-def gen_frames():  # generate frame by frame from camera
-    while True:
-        # Capture frame-by-frame
-        success, frame = camera.read()  # read the camera frame
-        if not success:
-            break
-        else:
-            ret, buffer = cv2.imencode('.jpg', frame)
-            frame = buffer.tobytes()
-            yield (b'--frame\r\n'
-                   b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')  # concat frame one by one and show result
 
 @app.route("/")
 def login():
@@ -43,6 +36,14 @@ def lesson():
     return render_template("video.html")
 
 
-@app.route('/video_feed')
-def video_feed():
-    return Response(ML.src.s5_test.gen(), mimetype='multipart/x-mixed-replace; boundary=frame')
+@app.route('/callstarted', methods=['POST'])
+def callstarted():
+    username = request.get_json(force=True).get('username')
+    if not username:
+        abort(401)
+
+    token = AccessToken(twilio_account_sid, twilio_api_key_sid,
+                        twilio_api_key_secret, identity=username)
+    token.add_grant(VideoGrant(room='My Room'))
+
+    return {'token': token.to_jwt().decode()}

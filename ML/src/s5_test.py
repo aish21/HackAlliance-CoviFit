@@ -306,7 +306,7 @@ def get_the_skeleton_data_to_save_to_disk(dict_id2skeleton):
         skels_to_save.append([[human_id, label] + skeleton.tolist()])
     return skels_to_save
 
-
+'''
 camera = cv2.VideoCapture(0)
 def gen():
     global dict_id2label
@@ -436,4 +436,4 @@ if __name__ == '__main__':
     finally:
         video_writer.stop()
         print("Program ends")
-'''
+

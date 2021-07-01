@@ -227,8 +227,8 @@ class ImageDisplayer(object):
 
     def display(self, image, wait_key_ms=1):
         pass
-        #cv2.imshow(self._window_name, image)
-        #cv2.waitKey(wait_key_ms)
+        cv2.imshow(self._window_name, image)
+        cv2.waitKey(wait_key_ms)
 
     def __del__(self):
         cv2.destroyWindow(self._window_name)
