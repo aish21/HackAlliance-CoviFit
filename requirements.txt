@@ -16,3 +16,5 @@ pyyaml
 django
 gunicorn
 django-heroku
+dotenv
+twilio
