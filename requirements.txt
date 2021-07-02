@@ -16,5 +16,5 @@ pyyaml
 django
 gunicorn
 django-heroku
-dotenv
+python-dotenv
 twilio
